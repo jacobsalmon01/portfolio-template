@@ -34,12 +34,12 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: "Cinzel", Arial, sans-serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "EB Garamond", Arial, sans-serif;
 }
 
 .bar-color{
@@ -49,38 +49,40 @@ p {
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  font-family: "EB Garamond";
+  color: #black;
 }
 
 #myNavbar a {
   text-decoration: none;
+ 
 }
 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  color: black;
 }
 
 .nav-change {
-  background-color: white;
+  background-color: #F7FBFF;
+  color: black
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('https://images.unsplash.com/photo-1526590916886-c918f193794d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cbb68643abdd7d33b16ec3132632e95&auto=format&fit=crop&w=2548&q=80');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('https://images.unsplash.com/photo-1507306681221-aa9ccb9d1c18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6dc6ce5d64d871d6ab369803c5aafeb&auto=format&fit=crop&w=2550&q=80');
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url('https://images.unsplash.com/photo-1440986014351-670bdeda7b03?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a6137d22a5bfb9d3e605614e0e536ad4&auto=format&fit=crop&w=2500&q=80');
   min-height: 400px;
 }
 
@@ -169,7 +171,7 @@ p {
   text-align: justify !important
 }
 
-.w3-center {
+{
   text-align: center !important
 }
 
@@ -230,4 +232,19 @@ p {
 
 .w3-hover-opacity {
   cursor: pointer;
+}
+#about {background-color:#F7FBFF}
+.fullwidth {
+    width:100%; 
+    background-color:#FFCEB5
+}
+#portfolio {background-color:#F7FBFF}
+#contact {background-color:#F7FBFF}
+.fullwidth2 {
+    width:100%;
+    background-color:#F7FBFF
+}
+.fullwidth3 {
+    width:100%;
+    background-color:#FFCEB5
 }

@@ -155,7 +155,9 @@ html {
   display: inline-block;
   width: auto
 }
-
+.w3-center {
+    text-align: center;
+}
 .w3-bar .w3-bar-item {
   padding: 8px 16px;
   float: left;
@@ -206,7 +208,7 @@ html {
 }
 
 .w3-content {
-  max-width: 980px;
+  max-width: 1100px;
   margin: auto
 }
 
